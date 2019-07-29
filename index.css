@@ -32,12 +32,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 80vh;
-    background-image: url('img/moon-back.jpg');
-    background-size: cover;
-    color: white;
+    /* background-image: url('img/moon-back.jpg');
+    background-size: cover; */
+    color: #000;
+    background: #fff;
     font-family: 'Questrial', Sans-Serif;
     font-size: 28px;
-    box-shadow: 7px -5px 0 #fff;
+    box-shadow: 7px 7px 0 #fff;
+    border: 2px solid #000;
 }
 
 .hero-container {
@@ -49,6 +51,30 @@ body {
     display: flex;
     flex-direction: column;
     padding: 40px;
+}
+
+.about-container {
+    display: flex;
+}
+
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    padding: 30px;
+    border-right: 1px solid #000;
+    line-height: 2;
+}
+
+.about-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.about-img {
+
 }
 
 .about-text {
