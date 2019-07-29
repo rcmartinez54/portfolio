@@ -12,7 +12,6 @@ body {
     font-family: 'Questrial', Sans-Serif;
     font-size: 22px;
     font-weight: bold;
-    /* color: white; */
 }
 
 .links {
@@ -33,11 +32,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 80vh;
-    background-image: url('img/background-image.jpg');
+    background-image: url('img/moon-back.jpg');
     background-size: cover;
     color: white;
     font-family: 'Questrial', Sans-Serif;
     font-size: 28px;
+    box-shadow: 7px -5px 0 #fff;
+}
+
+.hero-container {
+    /* text-shadow: 2px 2px 2px #000; */
 }
 
 #about {
