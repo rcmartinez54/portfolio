@@ -2,11 +2,31 @@
     box-sizing: border-box;
 }
 
-#header {
+body {
+    margin: 0;
+    background: linear-gradient(to left, #24C6DC, #514A9D);
+}
 
+#header {
+    display: flex;
+    font-family: 'Questrial', Sans-Serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    list-style: none;
+    padding: 20px;
+    cursor: pointer;
 }
 
 #hero {
+    margin: 0 30px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +40,7 @@
 }
 
 #about {
+    background: #fff;
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -29,3 +50,4 @@
     font-family: 'Alegreya', Serif;
     font-size: 19px;
 }
+
