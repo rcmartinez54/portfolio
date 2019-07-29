@@ -18,3 +18,14 @@
     font-family: 'Questrial', Sans-Serif;
     font-size: 28px;
 }
+
+#about {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.about-text {
+    font-family: 'Alegreya', Serif;
+    font-size: 19px;
+}
