@@ -8,6 +8,8 @@ body {
 }
 
 #header {
+    position: fixed;
+    top: 0;
     display: flex;
     font-family: 'Questrial', Sans-Serif;
     font-size: 22px;
@@ -25,7 +27,12 @@ body {
     cursor: pointer;
 }
 
+.link:hover {
+    border-bottom: 2px solid #000;
+}
+
 #hero {
+    margin-top: 100px;
     /* margin: 0 30px 30px; */
     display: flex;
     flex-direction: column;
