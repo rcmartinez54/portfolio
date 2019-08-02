@@ -236,6 +236,7 @@ body {
     .hero-container {
         padding: 75px;
         margin: 0 40px;
+        font-size: 22px;
     }
 
     .projects-heading {
