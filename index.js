@@ -14,7 +14,6 @@ function fadeNavOnScroll() {
             $('#header').fadeIn(400);
         }
     });
-    console.log('hello');
 }
 
 function smoothScroll() {
@@ -25,12 +24,24 @@ function smoothScroll() {
         return false;
     });
 }
+
+$('a[href^="#"]').on('click', function(event) {
+
+    let target = $(this.getAttribute('href'));
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+
+});
     
 function handler () {
     fadeInIntro();
     fadeNavOnScroll();
     smoothScroll();
-    console.log('hi');
 }
 
 $(handler);
