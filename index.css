@@ -175,6 +175,12 @@ body {
     flex-basis: 50%;
 }
 
+.project-img a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .project {
     width: 75%;
     border: 1px solid #000;
