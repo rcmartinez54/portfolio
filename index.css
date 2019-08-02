@@ -159,6 +159,15 @@ body {
     flex-basis: 50%;
 }
 
+.project-summary h2 {
+    font-family: 'Questrial', Sans-Serif;
+}
+
+.project-summary p {
+    font-family: 'Alegreya', Serif;
+
+}
+
 .project-img {
     display: flex;
     justify-content: center;
