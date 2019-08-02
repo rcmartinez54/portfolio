@@ -165,7 +165,11 @@ body {
 
 .project-summary p {
     font-family: 'Alegreya', Serif;
+}
 
+.bold-link {
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 .project-img {
