@@ -93,8 +93,8 @@ body {
     flex-basis: 50%;
 }
 
-.about-img {
-
+.hidden {
+    display: none;
 }
 
 .about-text {
